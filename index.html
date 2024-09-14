@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bicicleta Store</title>
+  <link rel="icon" href="./img/nodejs-icon.svg">
+  <!-- box icons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- css -->
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+        <div class="logo-box">
+            <i class='bx bxl-html5 bx-md' ></i>
+            <i class='bx bxl-nodejs bx-md'></i>
+            <i class='bx bxs-file-json bx-md' ></i>
+        </div>
+        <ul class="navbar">
+            <li>
+              <a class="navbar_link" href="#bikes">Bikes</a>
+            </li>
+            <li>
+              <a class="navbar_link " href="#motorbikes">Motorbikes</a>
+            </li>
+            <li>
+              <a class="navbar_link" href="#cart">Carrito</a>
+            </li>
+        </ul>
+    </nav>
+  </header>
+  <!-- alert -->
+    <div class="alert">
+      <!-- <div class="content">
+          <div class="box-message green">
+              <p>Un error alb</p> <i class='bx bx-x-circle bx-sm'></i>
+          </div>
+      </div> -->
+    </div>
+
+  <!-- main -->
+  <main>
+    <div class="product-content">
+        <section class="content" id="bikes">
+            <h1 class="section-title">Bikes</h1>
+            <div class="grid bike">
+                <!--  -->
+            </div>
+        </section>
+        <section class="content" id="motorbikes">
+            <h1 class="section-title">MotorBikes</h1>
+            <div class="grid motorbike">
+                <!--  -->
+            </div>
+        </section>
+    </div>
+    <div class="cart-content">
+        <section class="content" id="cart">
+            <h1 class="section-title">Cart</h1>
+            <h2 class="section-subTitle">List Items</h2>
+            <div class="cart_items">
+                <!-- -->
+            </div>
+            <footer class="cart_foot">
+                <div class="cart_foot_details">
+                    <h1>Total to Pay</h1>
+                    <h1 class="total_amount">$0.00</h1>
+                </div>
+                <button class="btn btn-payment">proceed to payment</button>
+            </footer>
+        </section>
+    </div>
+  </main>
+
+  <script src="./main.js"></script>
+</body>
+</html>
